@@ -4,3 +4,4 @@ total_mb = file_size_mb * number_of_files
 print("Total storage needed:", total_mb, "MB")
 print("Total storage needed:", total_mb, "MB")
 print("That is", total_mb * 1024, "KB")
+print("That is", total_mb / 1024, "GB")
